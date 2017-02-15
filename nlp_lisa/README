@@ -1,0 +1,20 @@
+This directory contains the source-code of nlp_lisa.
+
+Nlp-lisa is part of a service with which scientists of the VU-university
+can parse texts with NLP parsers on the Lisa supercomputer. It is the
+part that runs on Lisa.
+
+The project has been written in "literate programming" style using
+nuweb (http://nuweb.sourceforge.net/). As a result, complete
+documentation of the code, with instruction about how to compile it,
+can be found in alpinist.pdf.
+
+Contents of the source-code package:
+
+* README           : This file.
+* inst.m4          : Variables used in the software.
+* a_alpinist.w     : Source.
+* texinclusions.m4 : Configuration for the nuweb source.
+* stripnw          : script to convert the source into real Nuweb.
+* alpinist.pdf     : Documentation extracted from a_alpinist.w
+
